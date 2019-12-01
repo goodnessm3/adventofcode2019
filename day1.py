@@ -12,9 +12,8 @@ for x in vals:
 print(total)
 
 # part 2
-def myfunc2(x):
-    total = myfunc(x)
-    q = total
+def myfunc2(q):
+    total = 0
     while q > 0:
          tmp = myfunc(q)
          if tmp > 0:         
